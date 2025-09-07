@@ -1,0 +1,36 @@
+Stock Price Prediction Model Performance Report for PLTR
+=======================================================
+
+--- Test Set Performance (Data from 2015-01-01 to 2024-12-31) ---
+Linear Regression (Test Set):
+  MSE: 2.5410
+  RMSE: 1.5941
+  R2 Score: 0.9909
+
+Random Forest (Test Set):
+  MSE: 4.1001
+  RMSE: 2.0249
+  R2 Score: 0.9853
+
+LSTM Neural Network (Test Set):
+  MSE: 28.2778
+  RMSE: 5.3177
+  R2 Score: 0.9008
+
+--- Evaluation Set Performance (Data from 2025-01-01 to 2025-06-30) ---
+Linear Regression (Evaluation Set):
+  MSE: 40.8146
+  RMSE: 6.3886
+  R2 Score: 0.9082
+
+Random Forest (Evaluation Set):
+  MSE: 41.5714
+  RMSE: 6.4476
+  R2 Score: 0.9065
+
+LSTM Neural Network (Evaluation Set):
+  MSE: 89.7485
+  RMSE: 9.4736
+  R2 Score: 0.8173
+
+Note: Lower MSE/RMSE and higher R2 Score indicate better model performance.

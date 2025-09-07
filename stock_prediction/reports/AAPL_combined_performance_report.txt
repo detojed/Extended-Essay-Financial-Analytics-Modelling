@@ -1,0 +1,36 @@
+Stock Price Prediction Model Performance Report for AAPL
+=======================================================
+
+--- Test Set Performance (Data from 2015-01-01 to 2024-12-31) ---
+Linear Regression (Test Set):
+  MSE: 6.4691
+  RMSE: 2.5434
+  R2 Score: 0.9917
+
+Random Forest (Test Set):
+  MSE: 7.2709
+  RMSE: 2.6965
+  R2 Score: 0.9906
+
+LSTM Neural Network (Test Set):
+  MSE: 48.6694
+  RMSE: 6.9763
+  R2 Score: 0.9384
+
+--- Evaluation Set Performance (Data from 2025-01-01 to 2025-06-30) ---
+Linear Regression (Evaluation Set):
+  MSE: 29.5797
+  RMSE: 5.4387
+  R2 Score: 0.8939
+
+Random Forest (Evaluation Set):
+  MSE: 25.7181
+  RMSE: 5.0713
+  R2 Score: 0.9077
+
+LSTM Neural Network (Evaluation Set):
+  MSE: 80.3683
+  RMSE: 8.9648
+  R2 Score: 0.7172
+
+Note: Lower MSE/RMSE and higher R2 Score indicate better model performance.

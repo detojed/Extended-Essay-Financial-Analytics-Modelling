@@ -1,0 +1,36 @@
+Stock Price Prediction Model Performance Report for ^GSPC
+=======================================================
+
+--- Test Set Performance (Data from 2015-01-01 to 2024-12-31) ---
+Linear Regression (Test Set):
+  MSE: 1609.7379
+  RMSE: 40.1215
+  R2 Score: 0.9962
+
+Random Forest (Test Set):
+  MSE: 1571.2526
+  RMSE: 39.6390
+  R2 Score: 0.9962
+
+LSTM Neural Network (Test Set):
+  MSE: 12652.4547
+  RMSE: 112.4831
+  R2 Score: 0.9700
+
+--- Evaluation Set Performance (Data from 2025-01-01 to 2025-06-30) ---
+Linear Regression (Evaluation Set):
+  MSE: 7597.6087
+  RMSE: 87.1643
+  R2 Score: 0.8989
+
+Random Forest (Evaluation Set):
+  MSE: 7670.2790
+  RMSE: 87.5801
+  R2 Score: 0.8980
+
+LSTM Neural Network (Evaluation Set):
+  MSE: 17585.6538
+  RMSE: 132.6109
+  R2 Score: 0.7541
+
+Note: Lower MSE/RMSE and higher R2 Score indicate better model performance.
